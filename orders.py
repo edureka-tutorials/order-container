@@ -15,7 +15,7 @@ app.config['SECRET_KEY'] = 'secret'
 
 #client = MongoClient('ordersdb', 27017)
 #db = client.ordersDb
-client = pymongo.MongoClient("mongodb://appAdmin:Arka.1992@172.31.27.52:27017/")
+client = pymongo.MongoClient("mongodb://appAdmin:********@172.31.27.52:27017/")
 db = client["ordersdb"]
 col = db["orders"]
 
